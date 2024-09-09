@@ -8,29 +8,41 @@ Ce projet est une application **Streamlit** qui recommande des livres similaires
 - **Recommandations personnalisées** : Propose 5 livres similaires basés sur la sélection de l'utilisateur.
 - **Affichage des posters** : Montre les images des livres recommandés.
 
-## Prérequis
-
-Assurez-vous d'avoir les bibliothèques suivantes installées :
-
-- **Streamlit** : pour créer l'interface web.
-- **Pickle** : pour charger les modèles et les données.
-- **Numpy** : pour les calculs numériques.
-
-Vous pouvez les installer en utilisant la commande suivante :
-
-```bash
-pip install streamlit numpy
-```
-
 ## Installation et Exécution
 Clonez le dépôt Git :
 
 ```bash
 git clone https://github.com/votre-utilisateur/book-recommender-system.git
 ```
-Installez les dépendances 
+## Installation des Dépendances
 
-Lancez l'application Streamlit :
+1. **Créez un environnement virtuel** (si ce n'est pas déjà fait) :
+
+    ```bash
+    python -m venv env
+    ```
+
+2. **Activez l'environnement virtuel** :
+
+    - Sous Windows :
+
+      ```bash
+      env\Scripts\activate
+      ```
+
+    - Sous macOS et Linux :
+
+      ```bash
+      source env/bin/activate
+      ```
+
+3. **Installez les dépendances** à l'aide du fichier `requirements.txt` :
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Lancez l'application Streamlit :
 ```bash
 streamlit run app.py
 ```
