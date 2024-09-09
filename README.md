@@ -12,7 +12,7 @@ Ce projet est une application **Streamlit** qui recommande des livres similaires
 Clonez le dépôt Git :
 
 ```bash
-git clone https://github.com/votre-utilisateur/book-recommender-system.git
+git clone https://github.com/youngSaid21/Book-Recommender-System.git
 ```
 ## Installation des Dépendances
 
